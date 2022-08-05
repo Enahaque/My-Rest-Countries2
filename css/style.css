@@ -1,0 +1,34 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    box-shadow: inset;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    background-color: honeydew;
+}
+.country{
+    border: 1px salmon;
+    background-color: burlywood;
+    border-radius: 15px;
+}
+.country h1{
+    text-align: center;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.country h3{
+    text-align: center;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.country img{
+    width: 300px;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    
+}
